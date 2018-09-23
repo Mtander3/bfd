@@ -270,22 +270,23 @@
 
                               <div class="owl-carousel owl-theme">
                                    
+                                   
                                    <div class="item">
-                                        <h3> {{ posts.0.short_text }} </h3>
+                                        <h3> <a class='blogshort' href = "{% url 'myblog:post_detail' pk=posts.0.pk %}"> {{ posts.0.short_text }}</a> <h3>
                                         <div class="testimonial-item">
                                              <h4> <strong> {{ posts.0.title}} </strong> </h4>
                                         </div>
                                    </div>
 
                                      <div class="item">
-                                        <h3> {{ posts.1.short_text }} </h3>
+                                        <h3> <a class='blogshort' href = "{% url 'myblog:post_detail' pk=posts.1.pk %}"> {{ posts.1.short_text }}</a> <h3>
                                         <div class="testimonial-item">
                                              <h4> <strong> {{ posts.1.title}} </strong> </h4>
                                         </div>
                                    </div>
 
                                      <div class="item">
-                                        <h3> {{ posts.2.short_text }} </h3>
+                                        <h3> <a class='blogshort' href = "{% url 'myblog:post_detail' pk=posts.2.pk %}"> {{ posts.2.short_text }}</a> <h3>
                                         <div class="testimonial-item">
                                              <h4> <strong> {{ posts.2.title}} </strong> </h4>
                                         </div>
